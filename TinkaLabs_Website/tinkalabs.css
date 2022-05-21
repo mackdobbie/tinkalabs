@@ -1,0 +1,696 @@
+body{
+    display: block;
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#text{
+    padding-top: 275px;
+    height: auto;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: -1em;
+}
+
+p{
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 150px;
+}
+
+.smallP{
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+    padding-top: 2em;
+}
+
+.basicText{
+    position: relative;
+    top: 50%;
+    line-height: 4em;
+    text-align: center;
+    top: 35vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.overlay{
+    position: relative;
+    display: block;
+    width: 30vw;
+    height: 40vh;
+    top: 25vh;
+    bottom: 30vh;
+    left: 35vw;
+    right: 35vw;
+    background: rgba(187, 0, 204, 0.5);
+    z-index: 100;
+    border: 6px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#logo{
+    position: fixed;
+    display: block;
+    width: 275px;
+    height: 60px;
+    top: 50px;
+    left: 75px;
+}
+
+h2, p{
+    font-family: sans-serif;
+    color: white;
+}
+
+#consult{
+    position: absolute;
+    top: 50px;
+    right: 75px;
+    background-color: #BB00CC;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 50px;
+    font-size: 1em;
+}
+
+#start{
+    position: static;
+    top: 600px;
+    right: 40%;
+    left: 40%;
+    background-color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 40px;
+    color: #BB00CC;
+    padding: 20px 50px;
+    font-size: 1em;
+    margin: 0;
+}
+
+.purple{
+    color: #cc00bb;
+    margin: 0;
+}
+
+#splash{
+    background-image: url("images/Splash_Pg.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+}
+
+#pg2{
+    background-image: url("images/Image_2_v3%202.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg3{
+    background-image: url("images/Image_2_v1.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#pg4{
+    background-image: url("images/Image_2_v2.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#pg5{
+    background-image: url("images/Image_2_v3.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#pg6{
+    background-image: url("../Web%20Images/Drafts/IMG_4263.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+    overflow: auto;
+}
+
+#pg7{
+    background-image: url("../Web%20Images/Drafts/IMG_4264.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg8{
+    background-image: url("../Web%20Images/Drafts/Pg7.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg9{
+    background-image: url("../Web%20Images/Drafts/IMG_1503.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg10{
+    background-image: url("../Web%20Images/Drafts/IMG_1503.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg11{
+    background-image: url("../Web%20Images/Drafts/IMG_1502.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg12{
+    background-image: url("../Web%20Images/Drafts/IMG_1502.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg13{
+    background-image: url("../Web%20Images/Drafts/IMG_1504.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg14{
+    background-image: url("../Web%20Images/Drafts/IMG_1504.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg15{
+    background-image: url("../Web%20Images/Drafts/IMG_1507.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg16{
+    background-image: url("../Web%20Images/Drafts/IMG_1507.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg17{
+    background-image: url("../Web%20Images/Drafts/IMG_4270.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg18{
+    background-image: url("../Web%20Images/Drafts/IMG_4270.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg19{
+    background-image: url("../Web%20Images/Drafts/IMG_1505.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg20{
+    background-image: url("../Web%20Images/Drafts/IMG_1505.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg21{
+    background-image: url("../Web%20Images/Drafts/IMG_4446.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg22{
+    background-image: url("../Web%20Images/Drafts/IMG_4274.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg23{
+    background-image: url("../Web%20Images/Drafts/IMG_4274.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg24{
+    background-image: url("../Web%20Images/Drafts/IMG_4447.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg25{
+    background-image: url("../Web%20Images/Drafts/IMG_4448.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg26{
+    background-image: url("../Web%20Images/Drafts/IMG_4449.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg27{
+    background-image: url("../Web%20Images/Drafts/IMG_4276.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg28{
+    background-image: url("../Web%20Images/Drafts/IMG_4278.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg29{
+    background-image: url("../Web%20Images/Drafts/IMG_4277.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg30{
+    background-image: url("../Web%20Images/Drafts/IMG_4285.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg31{
+    background-image: url("../Web%20Images/Drafts/IMG_4286.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg32{
+    background-image: url("../Web%20Images/Drafts/IMG_4450.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg33{
+    background-image: url("../Web%20Images/Drafts/IMG_4287.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg34{
+    background-image: url("../Web%20Images/Drafts/IMG_4272.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg35{
+    background-image: url("../Web%20Images/Drafts/IMG_4271.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg36{
+    background-image: url("../Web%20Images/Drafts/IMG_4271.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg37{
+    background-color: #5c5c73;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg38{
+    background-image: url("../Web%20Images/Drafts/IMG_4453.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg39{
+    background-image: url("../Web%20Images/Drafts/IMG_4275.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg40{
+    background-image: url("../Web%20Images/Drafts/IMG_4275.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg41{
+    background-image: url("../Web%20Images/Drafts/IMG_4275.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg42{
+    background-image: url("../Web%20Images/Drafts/IMG_4451.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg43{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg44{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg45{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg46{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg47{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg48{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg49{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg50{
+    background-image: url("../Web%20Images/Drafts/IMG_4265.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg51{
+    background-image: url("../Web%20Images/Drafts/IMG_4288.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg52{
+    background-color: #5533a1;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg53{
+    background-image: url("../Web%20Images/Drafts/IMG_4289.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
+
+#pg54{
+    background-image: url("../Web%20Images/Drafts/IMG_4290.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: auto;
+}
