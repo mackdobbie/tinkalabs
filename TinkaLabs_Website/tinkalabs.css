@@ -71,6 +71,47 @@ h2, p{
     color: white;
 }
 
+h3{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+}
+
+#td1{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+#td2{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+#td3{
+    width: 33%;
+    padding: 20px;
+}
+
+#footerLinks td{
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.footerP{
+    font-family: sans-serif;
+    color: #a6a6a6;
+    font-size: 18px;
+    line-height: 3em;
+    padding-top: 20px;
+}
+
 #consult{
     position: absolute;
     top: 50px;
@@ -81,11 +122,68 @@ h2, p{
     color: white;
     padding: 20px 50px;
     font-size: 1em;
+    z-index: 100;
+}
+
+#consult2{
+    position: absolute;
+    top: 5310%;
+    right: 75px;
+    background-color: #BB00CC;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 50px;
+    font-size: 1em;
+    z-index: 100;
+}
+
+#consult3{
+    position: absolute;
+    top: 610%;
+    right: 75px;
+    background-color: #BB00CC;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 50px;
+    font-size: 1em;
+    z-index: 100;
 }
 
 #start{
     position: static;
     top: 600px;
+    right: 40%;
+    left: 40%;
+    background-color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 40px;
+    color: #BB00CC;
+    padding: 20px 50px;
+    font-size: 1em;
+    margin: 0;
+}
+
+#start2{
+    position: static;
+    top: 600px;
+    right: 40%;
+    left: 40%;
+    background-color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 40px;
+    color: #BB00CC;
+    padding: 20px 50px;
+    font-size: 1em;
+    margin: 0;
+}
+
+#start3{
+    position: absolute;
+    top: 680%;
     right: 40%;
     left: 40%;
     background-color: white;
@@ -692,5 +790,28 @@ h2, p{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
+    text-align: center;
+}
+
+#footer1{
+    background-color: #5c5c71;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
     overflow: auto;
+}
+
+#footer2{
+    background-color: white;
+    height: 110px;
+    width: auto;
+}
+
+#footer3{
+    background-color: #c01999;
+    height: 110px;
+    width: auto;
 }
